@@ -19,6 +19,7 @@ Quilt is a protocol aimed at migrating abandoned tokens (namely NFT) into wrappe
 * Mint Coupon - A discount mechanism reducing payable requirement in a "mint"
 * Migration - While not target, can be used for a token migration
 * Rebalancing - Abtract case: effectively creating new market dynamics in an existing collection by reducing supply
+* ReMint - An experimental concept of re minting an active part of an existing collection (think git branch)
 
 ### Core smart contracts of Quilt v1
 
