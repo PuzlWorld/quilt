@@ -3,8 +3,22 @@
 This repository contains the core smart contracts for the Quilt V1 Protocol.
 
 
-Quilt is a protocol aimed at migrating abandoned tokens (namely NFT) into wrapped instances to be utilized in alternative ways. A Patchwork systems for rugs if you will.
+Quilt is a protocol aimed at migrating abandoned tokens (namely NFT) into wrapped deflationary instances. A Patchwork systems for rugs if you will.
 
+#### Core Implementations:
+
+* Initialize a Quilt instance
+* Register 'rug' collection IDs on instance (initial support ERC-721)
+* Use interface in target workflow (mint, claim, allow, etc...) 
+* (optional) explore BONDfire
+* (optional) explore auto burn
+
+#### Core Use Cases:
+
+* Allow list - Fundementally 'paying' with registered collection
+* Mint Coupon - A discount mechanism reducing payable requirement in a "mint"
+* Migration - While not target, can be used for a token migration
+* Rebalancing - Abtract case: effectively creating new market dynamics in an existing collection by reducing supply
 
 ### Core smart contracts of Quilt v1
 
